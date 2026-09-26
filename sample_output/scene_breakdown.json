@@ -1,0 +1,17 @@
+[
+  {
+    "scene_id": "SC01",
+    "scene_number": 1,
+    "int_ext": "INT",
+    "location_id": "LOC_001",
+    "sub_location": "Aangan / Courtyard",
+    "time_of_day": "morning",
+    "mood": "Solemn / Reflective",
+    "dramatic_purpose": "Establish generational conflict, patriarch's unwavering honor, and immediate legal jeopardy",
+    "summary": "Amar brings an urgent registry envelope to his father Ram Singh in the courtyard; Ram Singh refuses to rush into dishonorable concessions.",
+    "characters_present": ["CHAR_001", "CHAR_002"],
+    "props_in": ["PROP_001"],
+    "props_out": ["PROP_001"],
+    "status": "PARSED"
+  }
+]

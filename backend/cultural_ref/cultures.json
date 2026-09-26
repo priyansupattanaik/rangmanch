@@ -1,0 +1,221 @@
+{
+  "cultures": [
+    {
+      "id": "malwai",
+      "name": "Malwai",
+      "region": "Madhya Pradesh — Malwa plateau (Ujjain, Indore, Dewas, Ratlam)",
+      "language_family": "Indo-Aryan",
+      "dialect_notes": "Blend of Hindi and Rajasthani. Uses 'sa' as softener. Kinship terms differ from standard Hindi. Distinctive verb endings like 'karvo', 'jaavo'.",
+      "kinship_terms": {
+        "elder_brother": "bhaiya sa",
+        "elder_sister": "didi sa",
+        "father": "bapuji",
+        "mother": "maaji",
+        "younger_brother": "chhotu",
+        "younger_sister": "ladli",
+        "paternal_uncle": "kaka sa",
+        "paternal_aunt": "kaki sa",
+        "grandfather": "baboji",
+        "grandmother": "dajiba"
+      },
+      "honorifics": "sa suffix for respect (e.g., Hukum sa, Bai sa)",
+      "common_idioms": [
+        "Jaisi karni vaisi bharni sa",
+        "Ghar ko bhedi lanka dhaave",
+        "Bole so meetho, na bole so peetho"
+      ],
+      "architecture": "Sandstone haveli, open courtyard (aangan), carved wooden lintels, neem tree centre, raised verandah (otla)",
+      "typical_wardrobe_male": "Dhoti-kurta, angarkha, pagdi for elders, white cotton bandi for daily wear",
+      "typical_wardrobe_female": "Lehenga-choli, cotton odhni with gota border, heavy silver borla and kardhani jewellery",
+      "typical_wardrobe_male_or_female": "Traditional Malwa cottons with bandhani/leheriya touches and silver adornments",
+      "food": [
+        "baati-churma",
+        "dal-bafla",
+        "garlic chutney",
+        "poha-jalebi",
+        "bhutte ka kees"
+      ],
+      "greetings": "Ram Ram sa",
+      "taboos": [
+        "Calling elders by their first name",
+        "Stepping over the courtyard threshold with footwear",
+        "Serving food with the left hand"
+      ],
+      "naming_conventions": {
+        "male_prefixes": ["Kunwar", "Pandit", "Seth"],
+        "male_suffixes": ["Singh", "Patidar", "Sharma"],
+        "female_suffixes": ["Bai", "Devi", "Kanwar"],
+        "sample_names": {
+          "Amar": "Amar Singh sa",
+          "Vikram": "Vikram Patidar",
+          "Meera": "Meera Bai",
+          "Sunita": "Sunita Kanwar",
+          "Rajesh": "Rajesh Sharma",
+          "Elder Son": "Bada Kunwar Amar",
+          "Father": "Bapuji Ram Singh"
+        }
+      },
+      "social_structure": {
+        "elder_authority": "Elders hold absolute veto in family and property disputes",
+        "family_hierarchy": "Strict seniority protocol; younger members seek aashirwad before speaking in council",
+        "role_adaptations": {
+          "Patriarch": "Kutumb Mukhiya (Bapuji)",
+          "Elder Son": "Jyestha Putra / Bada Kunwar carrying family prestige",
+          "Daughter": "Ghar ki Laxmi / Bai sa",
+          "Merchant": "Sethji / Sahukar",
+          "Friend": "Bhai-bandh sa"
+        }
+      },
+      "confidence_note": "Compiled from documented regional ethnographic sources. Verify with native speaker before theatrical production.",
+      "uncertainty_areas": [
+        "code-switching patterns",
+        "urban Malwai variation",
+        "modern youth colloquialisms"
+      ]
+    },
+    {
+      "id": "mewari",
+      "name": "Mewari",
+      "region": "Rajasthan — Mewar division (Udaipur, Chittorgarh, Rajsamand, Bhilwara)",
+      "language_family": "Indo-Aryan",
+      "dialect_notes": "A principal dialect of Rajasthani with strong phonological glottal emphasis, using 're' and 'hukum' extensively.",
+      "kinship_terms": {
+        "elder_brother": "banna sa",
+        "elder_sister": "baiji",
+        "father": "daata",
+        "mother": "maji sa",
+        "younger_brother": "chhota banna",
+        "younger_sister": "chhoti bai",
+        "paternal_uncle": "kakaji",
+        "paternal_aunt": "kaki sa",
+        "grandfather": "daatasa",
+        "grandmother": "maaji"
+      },
+      "honorifics": "Hukum, Banna sa, Baiji sa, Rao sa",
+      "common_idioms": [
+        "Mewar ra mard kadi jhukya koni",
+        "Aan-baan-shaan re aage sab pheeko",
+        "Tharo ghyan thare paase rakh"
+      ],
+      "architecture": "Whitewashed stone courtyard palace/haveli, jharokha balconies, marble chhatris, central fountain or sacred tulsi vrindavan",
+      "typical_wardrobe_male": "Tailored achkan or angarkhi, churidar, saffron or red Mewari pagri (turban), kamarbandh",
+      "typical_wardrobe_female": "Ghoonghat covered lehenga, kanchli-kurti, embossed silver rakhdi, punchi bracelets",
+      "typical_wardrobe_male_or_female": "Mewari royal-inspired or Rajputana cotton-silk with distinctive regional turban folds and silver jewellery",
+      "food": [
+        "laal maas",
+        "safed maas",
+        "paniyare",
+        "dal baati churma",
+        "gatte ki sabzi"
+      ],
+      "greetings": "Khamma Ghani",
+      "taboos": [
+        "Uncovered head in presence of elders or temple shrine",
+        "Directly questioning family patriarch in public sabha",
+        "Refusing ceremonial opium/kasumba or sweet welcome token"
+      ],
+      "naming_conventions": {
+        "male_prefixes": ["Rawat", "Banna", "Kunwar", "Thakur"],
+        "male_suffixes": ["Sisodia", "Rathore", "Chundawat"],
+        "female_suffixes": ["Baisa", "Rani", "Kanwar"],
+        "sample_names": {
+          "Amar": "Kunwar Amar Singh Mewari",
+          "Vikram": "Thakur Vikram Chundawat",
+          "Meera": "Meera Baisa",
+          "Sunita": "Sunita Kanwar",
+          "Rajesh": "Rajesh Joshi",
+          "Elder Son": "Bada Kunwar",
+          "Father": "Daata Thakur Sahib"
+        }
+      },
+      "social_structure": {
+        "elder_authority": "Chivalric code of honour (aan); patriarch holds solemn council judgment",
+        "family_hierarchy": "Warrior and clan loyalty dictates precedence; lineage reputation supersedes individual desires",
+        "role_adaptations": {
+          "Patriarch": "Thakur Sahib / Daata",
+          "Elder Son": "Kunwar Sahib / Banna",
+          "Daughter": "Baisa Hukum",
+          "Merchant": "Mahajan / Seth",
+          "Friend": "Mitra / Sangathi"
+        }
+      },
+      "confidence_note": "Documented Rajasthani historical lineage and dialect research. Historical aristocratic dialect notes verified.",
+      "uncertainty_areas": [
+        "tribal Bhil Mewari border dialects",
+        "contemporary colloquial Udaipur slang"
+      ]
+    },
+    {
+      "id": "majhi",
+      "name": "Majhi",
+      "region": "Punjab — central belt (Amritsar, Gurdaspur, Tarn Taran, Lahore border)",
+      "language_family": "Indo-Aryan",
+      "dialect_notes": "Prestigious central Punjabi dialect with tonal pitch accents (high-falling and low-rising tones) and hearty colloquial vocabulary.",
+      "kinship_terms": {
+        "elder_brother": "veera / bhau",
+        "elder_sister": "bhainji / bibi",
+        "father": "bapu ji / pitaji",
+        "mother": "bebe ji / mata ji",
+        "younger_brother": "nikka",
+        "younger_sister": "nikki",
+        "paternal_uncle": "chachaji / tayaji",
+        "paternal_aunt": "chachiji / taiji",
+        "grandfather": "babaji / dadaji",
+        "grandmother": "dadiji"
+      },
+      "honorifics": "Ji suffix, Sardar ji, Bhau ji, Bebe ji",
+      "common_idioms": [
+        "Jithe chah uthe rah",
+        "Anhe agge rona, akhiyan da khona",
+        "Dulleya beran da kujh ni vigdeya"
+      ],
+      "architecture": "Red brick kothi or ancestral haveli, expansive front deorhi (entrance vestibule), wide baithak, rooftop terrace with charpais",
+      "typical_wardrobe_male": "Kurta-pyjama with vibrant phulkari vest or chadra, Majha style pointed turban (pagri/pagg), jutti",
+      "typical_wardrobe_female": "Salwar-kameez, heavy embroidered phulkari dupatta, golden jhumkas and paranda in braided hair",
+      "typical_wardrobe_male_or_female": "Majha Punjabi tailored cotton or silk suit with embroidered phulkari and traditional footwear",
+      "food": [
+        "makki di roti te sarson da saag",
+        "amritsari kulcha",
+        "pindi chana",
+        "pinni",
+        "sweet lassi with malai"
+      ],
+      "greetings": "Sat Sri Akal",
+      "taboos": [
+        "Entering baithak or prayer area without head covering",
+        "Disrespecting community langar or grain harvest",
+        "Walking away from guest without serving lassi or water"
+      ],
+      "naming_conventions": {
+        "male_prefixes": ["Sardar", "Giani", "Chaudhary"],
+        "male_suffixes": ["Singh", "Sandhu", "Dhillon", "Gill"],
+        "female_suffixes": ["Kaur", "Sidhu", "Virk"],
+        "sample_names": {
+          "Amar": "Sardar Amar Singh Sandhu",
+          "Vikram": "Vikramjit Singh Dhillon",
+          "Meera": "Meera Kaur",
+          "Sunita": "Sunita Kaur Gill",
+          "Rajesh": "Rajesh Kumar",
+          "Elder Son": "Bada Veera Amar",
+          "Father": "Bapu Harbhajan Singh"
+        }
+      },
+      "social_structure": {
+        "elder_authority": "Bapu/Bebe guidance revered; joint family baithak holds consensus decisions",
+        "family_hierarchy": "Egalitarian community ethos with deep respect for parental labor and elder blessings",
+        "role_adaptations": {
+          "Patriarch": "Bapu ji / Sardar Mukhiya",
+          "Elder Son": "Wadda Veera / Bada Puttar",
+          "Daughter": "Dhee / Gudiya Kaur",
+          "Merchant": "Lala ji / Shah ji",
+          "Friend": "Yaar / Beli"
+        }
+      },
+      "confidence_note": "Standard Punjabi Majhi dialectology reference with classical folklore alignment.",
+      "uncertainty_areas": [
+        "peri-urban industrial slang",
+        "recent diaspora anglicisms"
+      ]
+    }
+  ]
+}

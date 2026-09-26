@@ -1,0 +1,17 @@
+{
+  "name": "rangmanch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RANGMANCH (रंगमंच) — The Stage — Where Stories Become Culture",
+  "scripts": {
+    "dev:backend": "cd backend && python -m uvicorn main:app --host 127.0.0.1 --port 8000",
+    "dev:frontend": "cd frontend && pnpm dev",
+    "dev": "concurrently --kill-others -n \"BACKEND,FRONTEND\" -c \"cyan.bold,magenta.bold\" \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "start": "npm run dev",
+    "test:backend": "cd backend && uv run pytest -v",
+    "build:frontend": "cd frontend && pnpm build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

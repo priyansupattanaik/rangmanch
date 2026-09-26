@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#18181b"/>
+  <rect x="40" y="40" width="720" height="520" rx="16" fill="#27272a" stroke="#d97706" stroke-width="2"/>
+  <text x="400" y="100" font-family="sans-serif" font-size="22" fill="#f59e0b" text-anchor="middle" font-weight="bold">
+    RANGMANCH SCENE KEYFRAME: SC01 (INT. HAVELI COURTYARD)
+  </text>
+  <text x="400" y="150" font-family="sans-serif" font-size="16" fill="#e4e4e7" text-anchor="middle">
+    Atmosphere: Morning Light | Architecture: Sandstone Haveli &amp; Neem Courtyard
+  </text>
+  <rect x="80" y="200" width="640" height="260" rx="12" fill="#09090b" stroke="#3f3f46"/>
+  <foreignObject x="100" y="220" width="600" height="220">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="color: #d4d4d8; font-family: sans-serif; font-size: 14px; line-height: 1.6;">
+      <strong>Cinematic Still Prompt:</strong><br/>
+      Cinematic 35mm film still of a rural Malwa haveli open courtyard. Golden morning rays filtering through the canopy of an ancient neem tree onto weathered yellow sandstone slabs. Amar stands by the stone verandah holding a wax-sealed envelope; Ram Singh sits composed at a low wooden ledger desk. Authentic period atmosphere.
+    </div>
+  </foreignObject>
+  <text x="400" y="520" font-family="sans-serif" font-size="12" fill="#a1a1aa" text-anchor="middle">
+    Dramatic Purpose: Filial Authority vs Immediate Legal Peril | Composition: 2.39:1 Aspect Ratio
+  </text>
+</svg>

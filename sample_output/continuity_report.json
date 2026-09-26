@@ -1,0 +1,32 @@
+{
+  "project_id": "sample-project-001",
+  "audit_timestamp": "2026-09-25T21:00:00Z",
+  "total_warnings": 0,
+  "warnings": [],
+  "character_chains": {
+    "CHAR_001": {
+      "canonical_name": "Bada Kunwar Amar",
+      "status": "CANONICAL",
+      "costume_id": "COST_001",
+      "scenes_present": ["SC01"]
+    },
+    "CHAR_002": {
+      "canonical_name": "Bapuji Ram Singh",
+      "status": "CANONICAL",
+      "costume_id": "COST_002",
+      "scenes_present": ["SC01"]
+    }
+  },
+  "prop_chains": {
+    "PROP_001": {
+      "name": "Sealed Envelope",
+      "transfer_chain": [
+        {
+          "scene_id": "SC01",
+          "holder": "CHAR_001",
+          "action": "Carried in and placed on wooden chowki"
+        }
+      ]
+    }
+  }
+}

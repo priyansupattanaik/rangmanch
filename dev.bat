@@ -1,0 +1,3 @@
+@echo off
+echo Starting RANGMANCH (Backend + Frontend)...
+npm run dev

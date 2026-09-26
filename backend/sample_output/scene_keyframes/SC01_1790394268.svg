@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#311042" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff10" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#grid)"/>
+  
+  <rect x="50" y="50" width="700" height="500" rx="16" fill="#18181b88" stroke="#f59e0b" stroke-width="2"/>
+  
+  <text x="400" y="110" font-family="system-ui, sans-serif" font-size="20" fill="#f59e0b" text-anchor="middle" font-weight="bold">
+    RANGMANCH VISUAL BIBLE [MOCK]
+  </text>
+  
+  <text x="400" y="180" font-family="system-ui, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="bold">
+    Scene Keyframe: SC01 (INT LOC_001)
+  </text>
+  
+  <rect x="100" y="240" width="600" height="220" rx="10" fill="#09090b" stroke="#3f3f46" stroke-width="1"/>
+  
+  <text x="120" y="275" font-family="system-ui, sans-serif" font-size="14" fill="#a1a1aa" font-weight="bold">
+    STORED IMAGE PROMPT:
+  </text>
+  
+  <foreignObject x="120" y="295" width="560" height="150">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="color: #e4e4e7; font-family: system-ui, sans-serif; font-size: 13px; line-height: 1.5; word-wrap: break-word;">
+      Cinematic keyframe shot for Scene SC01. Location: LOC_001, architecture style: Sandstone haveli, open courtyard (aangan), carved wooden lint...
+    </div>
+  </foreignObject>
+  
+  <text x="400" y="515" font-family="system-ui, sans-serif" font-size="12" fill="#71717a" text-anchor="middle">
+    Entity ID: SC01 | Generation Engine: Mock Provider | Verified Culture Reference Grounded
+  </text>
+</svg>

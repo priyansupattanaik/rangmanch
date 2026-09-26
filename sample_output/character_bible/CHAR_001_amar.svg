@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#18181b"/>
+  <rect x="40" y="40" width="720" height="520" rx="16" fill="#27272a" stroke="#f59e0b" stroke-width="2"/>
+  <text x="400" y="100" font-family="sans-serif" font-size="22" fill="#f59e0b" text-anchor="middle" font-weight="bold">
+    RANGMANCH CHARACTER BIBLE: BADA KUNWAR AMAR (CHAR_001)
+  </text>
+  <text x="400" y="150" font-family="sans-serif" font-size="16" fill="#e4e4e7" text-anchor="middle">
+    Culture: Malwai (Madhya Pradesh) | Role: Jyestha Putra / Elder Son
+  </text>
+  <rect x="80" y="200" width="640" height="260" rx="12" fill="#09090b" stroke="#3f3f46"/>
+  <foreignObject x="100" y="220" width="600" height="220">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="color: #d4d4d8; font-family: sans-serif; font-size: 14px; line-height: 1.6;">
+      <strong>Ground Truth Visual Prompt:</strong><br/>
+      Full-body documentary portrait of Bada Kunwar Amar, age 32, elder son carrying family prestige. Costume: Dhoti-kurta, white cotton bandi, red safa/pagdi with silver pin. Setting: Malwa plateau, rural courtyard haveli. Natural soft morning light, dignified, solemn expression.
+    </div>
+  </foreignObject>
+  <text x="400" y="520" font-family="sans-serif" font-size="12" fill="#a1a1aa" text-anchor="middle">
+    Status: APPROVED &amp; VERIFIED | Model: DALL-E 3 Compatible Grounded Specification
+  </text>
+</svg>
