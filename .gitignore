@@ -54,3 +54,6 @@ pnpm-debug.log*
 Thumbs.db
 .vscode/
 .idea/
+sample_output/
+backend/sample_output/
+

@@ -17,7 +17,8 @@ PROP_KEYWORDS = [
     "letter", "envelope", "sword", "gun", "revolver", "pistol",
     "knife", "dagger", "keys", "key", "ring", "necklace", "box",
     "diary", "book", "bag", "briefcase", "document", "papers",
-    "will", "dispatch", "telegram", "turban", "pagdi", "amulet", "locket"
+    "will", "dispatch", "telegram", "turban", "pagdi", "amulet", "locket",
+    "seal", "deed", "ledger", "notice", "scroll", "coin", "pen", "tray"
 ]
 
 # Patterns for character identification

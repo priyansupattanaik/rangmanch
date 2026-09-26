@@ -279,6 +279,8 @@ def create_plan(
         project = session.get(Project, id)
         if not project:
             return api_response(None, error="Project not found", status="error")
+        if project.status == "UPLOADED":
+            return api_response(None, error="Project must be extracted first (Stage 1 & 2) before planning.", status="error")
 
         culture_id = payload.get("culture_id", "malwai")
         setting = payload.get("setting", "rural")

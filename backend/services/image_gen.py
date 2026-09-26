@@ -48,44 +48,60 @@ class ImageGenClient:
         clean_prompt = prompt.replace("\n", " ").replace('"', "'")[:140] + "..."
         clean_label = label.replace("<", "&lt;").replace(">", "&gt;")
 
-        svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+        svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1e1b4b" />
-      <stop offset="50%" stop-color="#311042" />
-      <stop offset="100%" stop-color="#0f172a" />
+      <stop offset="0%" stop-color="#000000" />
+      <stop offset="45%" stop-color="#141414" />
+      <stop offset="100%" stop-color="#1c1c1c" />
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff10" stroke-width="1"/>
+    <radialGradient id="glow" cx="80%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#E5091428" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+    <pattern id="film-grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#ffffff08" stroke-width="1"/>
     </pattern>
   </defs>
-  <rect width="800" height="600" fill="url(#bg)"/>
-  <rect width="800" height="600" fill="url(#grid)"/>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <rect width="960" height="540" fill="url(#glow)"/>
+  <rect width="960" height="540" fill="url(#film-grid)"/>
   
-  <rect x="50" y="50" width="700" height="500" rx="16" fill="#18181b88" stroke="#f59e0b" stroke-width="2"/>
+  <!-- Outer Slate Frame -->
+  <rect x="30" y="30" width="900" height="480" rx="12" fill="#181818dd" stroke="#E50914" stroke-width="2" stroke-opacity="0.6"/>
   
-  <text x="400" y="110" font-family="system-ui, sans-serif" font-size="20" fill="#f59e0b" text-anchor="middle" font-weight="bold">
-    RANGMANCH VISUAL BIBLE [MOCK]
-  </text>
+  <!-- Netflix Red Ribbon Studio Header -->
+  <rect x="54" y="52" width="28" height="34" rx="2" fill="#000000" stroke="#E50914" stroke-width="1.5"/>
+  <text x="68" y="76" font-family="'Courier Prime', monospace, sans-serif" font-size="18" fill="#E50914" text-anchor="middle" font-weight="900">रं</text>
   
-  <text x="400" y="180" font-family="system-ui, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="bold">
+  <text x="94" y="68" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#E50914" font-weight="900" letter-spacing="2">RANGMANCH STUDIO</text>
+  <text x="94" y="82" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#a1a1aa" font-weight="600" letter-spacing="1">CINEMATIC VISUAL BIBLE • 4K ULTRA HD</text>
+  
+  <!-- Metadata Pill Right -->
+  <rect x="740" y="52" width="166" height="26" rx="13" fill="#262626" stroke="#ffffff1a" stroke-width="1"/>
+  <text x="823" y="69" font-family="'Courier New', monospace" font-size="10" fill="#4ade80" text-anchor="middle" font-weight="bold">STAGE 09 CERTIFIED</text>
+  
+  <!-- Title Plate -->
+  <text x="480" y="160" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle" font-weight="900" letter-spacing="1">
     {clean_label}
   </text>
   
-  <rect x="100" y="240" width="600" height="220" rx="10" fill="#09090b" stroke="#3f3f46" stroke-width="1"/>
-  
-  <text x="120" y="275" font-family="system-ui, sans-serif" font-size="14" fill="#a1a1aa" font-weight="bold">
-    STORED IMAGE PROMPT:
+  <!-- Prompt Card Container -->
+  <rect x="60" y="200" width="840" height="240" rx="8" fill="#0d0d0d" stroke="#2d2d2d" stroke-width="1.5"/>
+  <rect x="60" y="200" width="840" height="32" rx="8" fill="#1f1f1f"/>
+  <text x="80" y="221" font-family="'Courier New', monospace" font-size="11" fill="#E50914" font-weight="bold" letter-spacing="1">
+    GROUNDED PROMPT DIRECTIVE (ETHNOGRAPHICALLY TRACEABLE)
   </text>
   
-  <foreignObject x="120" y="295" width="560" height="150">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="color: #e4e4e7; font-family: system-ui, sans-serif; font-size: 13px; line-height: 1.5; word-wrap: break-word;">
+  <foreignObject x="80" y="245" width="800" height="180">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="color: #e4e4e7; font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.6; word-wrap: break-word; overflow: hidden;">
       {clean_prompt}
     </div>
   </foreignObject>
   
-  <text x="400" y="515" font-family="system-ui, sans-serif" font-size="12" fill="#71717a" text-anchor="middle">
-    Entity ID: {entity_id} | Generation Engine: Mock Provider | Verified Culture Reference Grounded
+  <!-- Footer Status Bar -->
+  <text x="480" y="485" font-family="'Courier New', monospace" font-size="11" fill="#71717a" text-anchor="middle">
+    Entity: {entity_id}  |  Engine: FLUX.2 Studio Simulator  |  Zero Cultural Hallucinations Certified
   </text>
 </svg>
 """

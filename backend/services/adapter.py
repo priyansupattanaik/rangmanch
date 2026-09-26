@@ -9,7 +9,7 @@ from services.planner import load_culture_ref
 from services.verifier import verify_adapted_scene, VerificationResult
 
 SCENE_ADAPTATION_PROMPT = """
-You are adapting screenplay dialogue for the {culture_id} culture.
+You are adapting screenplay dialogue for the {culture_id} culture in {output_script} script.
 
 APPROVED DECISIONS (follow exactly):
 {approved_decisions_json}
@@ -21,7 +21,7 @@ ORIGINAL SCENE:
 {original_scene_text}
 
 TASK:
-Rewrite the dialogue and action lines for this culture.
+Rewrite the dialogue and action lines for this culture using {output_script} characters.
 For every change, record: what changed, which approved decision it follows.
 If you are uncertain about a cultural detail not in the reference → 
 set that line's confidence to LOW and write: NEEDS_REVIEW: [specific question]
@@ -106,6 +106,7 @@ def adapt_single_scene(
 
     prompt = SCENE_ADAPTATION_PROMPT.format(
         culture_id=approved_plan.culture_id,
+        output_script=approved_plan.output_script or "Devanagari",
         approved_decisions_json=approved_plan.decisions,
         culture_excerpt_json=json.dumps(culture_excerpt, indent=2),
         original_scene_text=scene.raw_text
